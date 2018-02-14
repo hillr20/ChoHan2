@@ -1,4 +1,3 @@
-
 public class LoadedDie extends Die {
 
 	public LoadedDie(int n) {
@@ -13,7 +12,7 @@ public class LoadedDie extends Die {
 	public int generateRoll() {
 		int something = (int)(Math.random() * 100) + 1;
 		if (something <= 80) {
-			int allNumRoll = (int)(Math.random()*/*getSideNum*/n()) + 1;
+			int allNumRoll = (int)(Math.random()*/*getSideNum*/n) + 1;
 			int roll = allNumRoll *2 - 1;
 			return roll;	
 			
